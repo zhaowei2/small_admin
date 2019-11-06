@@ -1,0 +1,23 @@
+div
+  div
+    form(action='/uploadJoke' method='post' id="formJoke" class='form')
+      p 笑话
+      div(class='form-group')
+        label(for='joke') 内容：
+        input(type='test'  name='joke' id='joke'  class='form-control' )
+      div(class="btn-group")  
+        button(type="button" id="submitBtnJoke" class='btn btn-primary') 提交
+  div 
+    form(action='/uploadImage' method='post' id="formImage" class='form' enctype="multipart/form-data")
+      p 图片
+      div(class='form-group')
+        label(for='inputName') 名称：
+        input(type='text' name='sname')
+        label(for='inputFile') 文件：
+        input(type='file'  name='isUpdata' id='inputFile' multiple="multiple")
+        label(for='inputtype') 类型：
+        select(name='type')
+          option(value="1") 全部
+      div(class="btn-group")  
+        button(type="button" id="submitBtnImage" class='btn btn-primary') 提交
+  

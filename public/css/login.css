@@ -1,0 +1,27 @@
+.form{
+  width: 400px;
+  margin: 0 auto;
+  margin-top:100px;
+}
+.form .form-group{
+  margin-bottom: 15px;
+  height: 34px;
+}
+.form .form-group label{
+  float: left;
+  width: 100px;
+  margin-bottom:0;
+  line-height: 34px;
+}
+.form .form-control{
+  float: left;
+  width: 300px;
+}
+.form .btn-group{
+  text-align: center;
+}
+.form .btn-group .btn{
+  margin-left:100px;
+  padding-left:16px;
+  padding-right:16px;
+}
